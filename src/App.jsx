@@ -11,11 +11,12 @@ function App() {
   
   return (
     <>
-      {/* <Card />
+      {/* 
       <Propcard name="raktim yoddha" about="he is a very brilliant student" />
       <Propcard name="nilima " about="she is a very brilliant student" />
       <Conditional hiornot={false} />
       <Conditional hiornot={true} />*/}
+      <Card />
       <Mapping/> 
       
 
