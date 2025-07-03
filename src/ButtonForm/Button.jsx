@@ -8,7 +8,7 @@ export default function Button() {
 
   const [count,setCount] = useState(0);
   const Adding = () => {
-    setCount(count);
+    setCount(count+1);
   }
   return (
     <>
