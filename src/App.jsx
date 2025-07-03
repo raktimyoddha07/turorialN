@@ -6,6 +6,7 @@ import Card from './Card.jsx'
 import Propcard from './Propcard.jsx'
 import Conditional from './Conditional.jsx'
 import Mapping from './Mapping.jsx'
+import Button from './ButtonForm/Button.jsx'
 
 function App() {
   
@@ -16,8 +17,10 @@ function App() {
       <Propcard name="nilima " about="she is a very brilliant student" />
       <Conditional hiornot={false} />
       <Conditional hiornot={true} />*/}
-      <Card />
+      {/* <Card />
       <Mapping/> 
+       */}
+      <Button/>
       
 
     </>
